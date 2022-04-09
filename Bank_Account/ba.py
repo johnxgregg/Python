@@ -38,3 +38,5 @@ savings = BankAccount(0.1, 5)
 checking.make_deposit(100).make_deposit(200).make_deposit(500).make_withdraw(200).yield_interest().display_account_info()
 
 savings.make_deposit(200).make_deposit(200).make_withdraw(505).make_withdraw(607).make_withdraw(4000).make_withdraw(20).yield_interest().display_account_info()
+
+# entered numbers to create a negative balance and display Insufficient funds
