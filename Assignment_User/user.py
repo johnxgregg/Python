@@ -31,7 +31,3 @@ dude.make_deposit(800).dude.make_deposit(800).dude.make_withdrawl(50).dude.make_
 guy.make_deposit(2000).guy.make_withdrawl(112).guy.make_withdrawl(500).guy.make_withdrawl(600).guy.display_user_balance()
 
 guy.transfer_money(400, buddy)
-
-#played around with trying do some type of loop or something that would print 
-#a message if the balance went negative but wasn't able to make it work. Ill
-#come back to it later and try again
