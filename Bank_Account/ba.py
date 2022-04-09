@@ -26,12 +26,15 @@ class BankAccount:
             self.balance += (self.balance * self.int_rate)
         return self
 
+    @classmethod
+    def print_all_accounts(cls):
+        for account in cls.accounts:
+            account.dispaly_account_info()
 
-
-checking = BankAccount(.08, 1100)
-savings = BankAccount(0.3, 2500)
+checking = BankAccount(.04, 1500)
+savings = BankAccount(0.1, 5)
 
 
 checking.make_deposit(100).make_deposit(200).make_deposit(500).make_withdraw(200).yield_interest().display_account_info()
 
-savings.make_deposit(200).make_deposit(200).make_withdraw(50).make_withdraw(60).make_withdraw(40).make_withdraw(20).yield_interest().display_account_info()
+savings.make_deposit(200).make_deposit(200).make_withdraw(505).make_withdraw(607).make_withdraw(4000).make_withdraw(20).yield_interest().display_account_info()
