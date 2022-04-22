@@ -1,0 +1,31 @@
+-- INSERT:
+
+-- select * from tweets
+-- INSERT INTO tweets (tweet, user_id, created_at, updated_at)
+-- VALUES ("hello", 1, NOW(), NOW());
+
+
+
+-- SELECT:
+
+-- SELECT *
+-- FROM faves;
+
+
+
+-- UPDATE:
+
+-- SELECT * 
+-- FROM tweets;
+-- UPDATE  twitter.tweets SET
+-- tweet = 'yo yo'
+-- where id = 1;
+
+
+
+-- DELETE:
+
+-- SELECT * 
+-- FROM tweets;
+-- DELETE FROM twitter.tweets
+-- where id = 12;
